@@ -1,42 +1,42 @@
 {
-	"compilerOptions": {
-		/* ----------------------------------------------------------------------
-		 * Base Options
-		 * ---------------------------------------------------------------------- */
-		"target": "es2022",
-		"lib": ["dom", "dom.iterable", "esnext"],
-		"module": "esnext",
-		"moduleResolution": "node",
-		"verbatimModuleSyntax": true,
-		"allowJs": true,
-		"skipLibCheck": true,
+  "compilerOptions": {
+    /* ----------------------------------------------------------------------
+     * Base Options
+     * ---------------------------------------------------------------------- */
+    "target": "es2022",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "verbatimModuleSyntax": true,
+    "allowJs": true,
+    "skipLibCheck": true,
 
-		/* ----------------------------------------------------------------------
-		 * Interop & Resolution
-		 * ---------------------------------------------------------------------- */
-		"esModuleInterop": true,
-		"resolveJsonModule": true,
-		"isolatedModules": true,
-		"forceConsistentCasingInFileNames": true,
+    /* ----------------------------------------------------------------------
+     * Interop & Resolution
+     * ---------------------------------------------------------------------- */
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
 
-		/* ----------------------------------------------------------------------
-		 * Build & Output
-		 * ---------------------------------------------------------------------- */
-		"noEmit": false,
-		"rootDir": "src",
-		"outDir": "dist",
-		"sourceMap": true,
-		"removeComments": true,
+    /* ----------------------------------------------------------------------
+     * Build & Output
+     * ---------------------------------------------------------------------- */
+    "noEmit": false,
+    "rootDir": "src",
+    "outDir": "dist",
+    "sourceMap": true,
+    "removeComments": true,
 
-		/* ----------------------------------------------------------------------
-		 * Strict Type Checks
-		 * ---------------------------------------------------------------------- */
-		"strict": true,
-		"noUncheckedIndexedAccess": true,
-		"noImplicitReturns": true,
-		"noFallthroughCasesInSwitch": true
-	},
+    /* ----------------------------------------------------------------------
+     * Strict Type Checks
+     * ---------------------------------------------------------------------- */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
 
-	"include": ["src"],
-	"exclude": ["node_modules", "dist"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
