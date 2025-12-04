@@ -1,2 +1,5 @@
-console.log(12345); // 数値リテラル
-console.log('67890'); // 文字列リテラル
+console.log("Hello! I'm etranger2268.");
+
+console.log('\t AAA \n BBB');
+
+console.log('こんにちは！"etranger2268"さん');
