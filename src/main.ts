@@ -1,18 +1,19 @@
-// let color;
-// let colorName; // キャメルケース、ろーわーキャメルケース
-// let myColorName;
+const color: string = 'red';
+console.log(color);
+console.log(typeof color);
 
-// const favoriteFood = 20; // bad;
-// let _color;
-// let $name;
+const num: number = 123;
+console.log(num);
+console.log(typeof num);
 
-// let name1;
-// let _name1;
+const dec: number = 456.789;
+console.log(dec);
+console.log(typeof dec);
 
-const foo = 'small';
-const Foo = 'big';
-console.log(foo);
-console.log(Foo);
+let b: boolean = true;
+console.log(b);
+console.log(typeof b);
 
-// 予約語
-// let const = 'abc';
+b = false;
+console.log(b);
+console.log(typeof b);
