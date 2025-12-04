@@ -1,5 +1,8 @@
-console.log("Hello! I'm etranger2268.");
+let color: string = 'Red';
+console.log(color);
 
-console.log('\t AAA \n BBB');
+color = 'Green';
+console.log(color);
 
-console.log('こんにちは！"etranger2268"さん');
+// let color: string = 'Blue';
+// color = 255;
