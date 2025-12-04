@@ -1,11 +1,2 @@
-// console.log('Hello World!');
-
-/*
-console.log('Hello World!');
-console.log('Hello World!');
-console.log('Hello World!');
-*/
-
-// console.log('Hello World!');
-// console.log('Hello World!');
-// console.log('Hello World!');
+console.log(12345); // 数値リテラル
+console.log('67890'); // 文字列リテラル
