@@ -1,5 +1,7 @@
 # udemy-typescript-programming-for-beginners
 
+<https://www.udemy.com/course/typescript-programming-for-beginners>
+
 ## 技術スタック
 
 - HTML
