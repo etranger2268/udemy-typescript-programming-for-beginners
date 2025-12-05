@@ -1,8 +1,18 @@
-const getRectangle1 = (height: number, width: number = 10): number => height * width;
-console.log(getRectangle1(3, 5));
-console.log(getRectangle1(3));
+const colors: string[] = ['Red', 'Green', 'Blue'];
+console.log(colors);
 
-// error
-// const getRectangle2 = (height: number = 10, width: number): number => height * width;
-// console.log(getRectangle2(3, 5));
-// console.log(getRectangle2(3));
+// const nums: string[] = [1, 2, 3];
+
+const mixedArr = ['abc', 1, true];
+console.log(mixedArr);
+
+console.log(colors[0]);
+console.log(colors[1]);
+console.log(colors[2]);
+// console.log(colors[3]); // undefined
+
+console.log(colors.length);
+console.log(colors[colors.length - 1]);
+
+const emptyArr: number[] = [];
+console.log(emptyArr);
