@@ -12,7 +12,5 @@ class User {
   }
 }
 
-const user = new User('etranger2268', 26);
-console.log(user.name);
-// console.log(user.age);
-console.log(user.isAdult());
+const user: User = new User('etranger2268', 26);
+console.log(user);
