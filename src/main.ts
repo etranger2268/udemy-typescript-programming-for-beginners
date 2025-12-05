@@ -1,11 +1,8 @@
 class User {
-  name?: string;
+  readonly name: string = 'etranger2268'
   age: number = 0;
 }
 
 const user = new User();
-console.log(user.name);
-console.log(user.age);
-
-user.name = 'etranger2268';
-console.log(user.name);
+console.log(user);
+// user.name = 'etranger2268';
