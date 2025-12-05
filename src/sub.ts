@@ -1,3 +1,5 @@
-const name: string = 'etranger2268';
-const age: number = 26;
-export {name as myName, age};
+export const getName = (): string => 'etranger2268';
+
+export function getName2(): string {
+  return 'etranger2268';
+}

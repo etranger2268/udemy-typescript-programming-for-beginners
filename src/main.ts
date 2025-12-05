@@ -1,3 +1,4 @@
-import { age as myAge, myName } from './sub.js';
+import { getName, getName2 } from './sub.js';
 
-console.log(myName, myAge);
+console.log(`Hello! I'm ${getName()}`);
+console.log(`Hello! I'm ${getName2()}`);
