@@ -1,4 +1,18 @@
-for (let i = 1; i <= 3; i++) console.log(i);
+for (let i = 0; i < 3; i++) {
+  for (let j = 0; j < 3; j++) {
+    console.log(`i: ${i}, j: ${j}`);
+  }
+}
+const scores: number[][] = [
+  [100, 99, 98],
+  [90, 89, 88],
+  [80, 79, 78],
+];
 
-const colors: string[] = ['red', 'blue', 'green'];
-for (let i = 0; i < colors.length; i++) console.log(colors[i]);
+console.log(scores);
+
+// for (let i = 0; i < scores.length; i++) {
+//   for (let j = 0; j < scores[i].length; j++) {
+//     console.log(scores[i][j]);
+//   }
+// }
