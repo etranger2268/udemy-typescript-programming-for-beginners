@@ -1,22 +1,4 @@
-// // 後置演算子
-// let num = 10;
-// num++;
-// console.log(num);
-
-// num--;
-// console.log(num);
-
-// // 前置演算子
-// ++num;
-// console.log(num);
-
-// --num;
-// console.log(num);
-
-let num1 = 10;
-let num2 = 10;
-const ans1 = ++num1;
-const ans2 = num2++;
-
-console.log(ans1);
-console.log(ans2);
+const mass = 60;
+const height = 1.7;
+const bmi = mass / (height * height);
+console.log(`BMI:${bmi}`);
