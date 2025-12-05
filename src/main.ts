@@ -1,12 +1,5 @@
 let i = 1;
-while (i <= 3) {
+do {
   console.log(i);
   i++;
-}
-
-let j = 1;
-while (j <= 10) {
-  console.log(j);
-  if (j === 5) break;
-  j++;
-}
+} while (i <= 3);
