@@ -1,4 +1,8 @@
-import { getName, getName2 } from './sub.js';
+import { User } from './sub.js';
 
-console.log(`Hello! I'm ${getName()}`);
-console.log(`Hello! I'm ${getName2()}`);
+const user = new User();
+user.name = 'etranger2268';
+user.age = 26;
+console.log(user.name);
+console.log(user.age);
+console.log(user.isAdult());

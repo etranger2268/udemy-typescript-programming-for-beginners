@@ -1,5 +1,8 @@
-export const getName = (): string => 'etranger2268';
+export class User {
+  name: string = '';
+  age: number = 0;
 
-export function getName2(): string {
-  return 'etranger2268';
+  isAdult(): boolean {
+    return this.age >= 18;
+  }
 }
