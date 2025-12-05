@@ -15,14 +15,11 @@ class User {
 class AdminUser extends User {
   adminRole: number = 1;
 
-  public override isAdult(): boolean {
-    return true;
-  }
-
-  public sayAdminRole(): string {
-    return `My adminRole is ${this.adminRole}.`;
+  constructor(name: string, age: number, adminRole: number) {
+    super(name, age);
+    this.adminRole = adminRole;
   }
 }
 
-const adminUser: AdminUser = new AdminUser('etranger2268', 0);
-console.log(adminUser.isAdult());
+const adminUser: AdminUser = new AdminUser('etranger2268', 26, 3);
+console.log(adminUser);
