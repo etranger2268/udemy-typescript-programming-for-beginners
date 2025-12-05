@@ -1,5 +1,5 @@
 class User {
-  name: string = '';
+  name?: string;
   age: number = 0;
 }
 
@@ -8,6 +8,4 @@ console.log(user.name);
 console.log(user.age);
 
 user.name = 'etranger2268';
-user.age = 26;
 console.log(user.name);
-console.log(user.age);
