@@ -1,38 +1,43 @@
-const colors: string[] = ['Red', 'Green', 'Blue'];
-console.log(colors);
+const user: {
+  name: string;
+  gender: string;
+  age: number;
+} = {
+  name: 'etranger2268',
+  gender: 'man',
+  age: 21,
+};
 
-colors.push('Black');
-console.log(colors);
+console.log(user.name);
+console.log(user.gender);
+console.log(user.age);
 
-colors.unshift('White');
-console.log(colors);
+console.log(user['name']);
+console.log(user['gender']);
+console.log(user['age']);
 
-colors[1] = 'Aka';
-console.log(colors);
+user.age = 22;
+console.log(user.age);
 
-const insertArr: string[] = ['a', 'b', 'c'];
-insertArr.splice(1, 0, 'D');
-console.log(insertArr);
-insertArr.splice(2, 0, 'X', 'Y', 'Z');
-console.log(insertArr);
+user.age = 22;
+console.log(user['age']);
 
-insertArr.splice(2, 2);
-console.log(insertArr);
+console.log(Object.keys(user).length);
+console.log(Object.keys(user));
 
-const arr1: string[] = ['a', 'b', 'c'];
-const arr2: string[] = ['e', 'f', 'g'];
-const mergeArr = arr1.concat(arr2);
-console.log(mergeArr);
-console.log(arr1);
-console.log(arr2);
+// user.age = '20'
+// user.from = 'Tokyo';
 
-const arr3: string[] = ['a', 'b', 'c'];
-arr3.shift();
-console.log(arr3);
+interface UserObj {
+  name: string;
+  gender: string;
+  age?: number;
+}
 
-arr3.pop();
-console.log(arr3);
+const newUser: UserObj = {
+  name: 'etranger2268',
+  gender: 'man',
+  // age: 21,
+};
 
-const arr4: number[] = [1, 2, 3];
-const arr5: number[] = [4, 5, 6, ...arr4];
-console.log(arr5);
+console.log(newUser);
