@@ -1,2 +1,2 @@
-const getPrice = (unitPrice: number, n: number): number => unitPrice * n;
-console.log(getPrice(100, 20));
+const displayMessage = (): void => console.log('Timeout!');
+setTimeout(displayMessage, 3000);
