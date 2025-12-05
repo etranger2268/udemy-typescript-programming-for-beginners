@@ -1,2 +1,3 @@
-export const name: string = 'etranger2268';
-export const age: number = 26;
+const name: string = 'etranger2268';
+const age: number = 26;
+export {name as myName, age};

@@ -1,3 +1,3 @@
-import { age, name } from './sub.js';
+import { age as myAge, myName } from './sub.js';
 
-console.log(name, age);
+console.log(myName, myAge);
