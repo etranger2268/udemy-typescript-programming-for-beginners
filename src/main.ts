@@ -1,23 +1,22 @@
 class User {
-  name: string = '';
+  readonly name: string = '';
   age: number = 0;
+
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+
   isAdult(): boolean {
     return this.age >= 18;
   }
-  setAge(age: number) {
-    this.age = age;
-  }
+
+  // setName(name: string) {
+  //   this.name = name;
+  // }
 }
 
-const user = new User();
+const user = new User('etranger2268', 26);
+console.log(user.name);
 console.log(user.age);
 console.log(user.isAdult());
-
-user.setAge(26);
-console.log(user.age);
-console.log(user.isAdult());
-
-const liam = new User();
-liam.setAge(18);
-console.log(liam.age);
-console.log(liam.isAdult());
