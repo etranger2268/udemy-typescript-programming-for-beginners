@@ -1,12 +1,2 @@
-// const getRectangle = (height: number, width: number): number => {
-//   return height * width;
-// };
-
-const getRectangle = (height: number, width: number): number => height * width;
-console.log(getRectangle(3, 5));
-
-const putHight = (height: number): void => console.log(`${height}`);
-putHight(3);
-
-const hello = (): void => console.log('hello!');
-hello();
+const getPrice = (unitPrice: number, n: number): number => unitPrice * n;
+console.log(getPrice(100, 20));
