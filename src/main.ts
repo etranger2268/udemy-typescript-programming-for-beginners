@@ -1,10 +1,13 @@
-const scores: number[] = [100, 90, 80, 70, 60];
-let sum = 0;
-for (let i = 0; i < scores.length; i++) {
-  sum += scores[i];
+class User {
+  name: string = '';
+  age: number = 0;
 }
 
-const average = sum / scores.length;
+const user = new User();
+console.log(user.name);
+console.log(user.age);
 
-console.log(`sum: ${sum}`);
-console.log(`average: ${average}`);
+user.name = 'etranger2268';
+user.age = 26;
+console.log(user.name);
+console.log(user.age);
