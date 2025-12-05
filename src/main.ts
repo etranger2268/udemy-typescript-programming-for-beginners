@@ -1,13 +1,19 @@
-const mass = 60;
-const height = 1.7;
+// && 論理AND
 
-const bmi = mass / (height * height);
-console.log(bmi);
+console.log(`true && true: ${true && true}`);
+console.log(`true && false: ${true && false}`);
+console.log(`false && true: ${false && true}`);
+console.log(`false && false: ${false && false}`);
 
-if (bmi >= 25) {
-  console.log('肥満');
-} else if (bmi >= 18.5) {
-  console.log('普通');
-} else {
-  console.log('痩せ');
-}
+// || 論理OR
+console.log(`true || true: ${true || true}`);
+console.log(`true || false: ${true || false}`);
+console.log(`false || true: ${false || true}`);
+console.log(`false || false: ${false || false}`);
+// ! 論理NOT
+console.log(`!true: ${!true}`);
+console.log(`!false: ${!false}`);
+
+// ! && ||
+console.log(`false && true || true: ${(false && true) || true}`);
+console.log(`false && (true || true:) ${false && (true || true)}`);
