@@ -12,5 +12,15 @@ class User {
   }
 }
 
-const user: User = new User('etranger2268', 26);
-console.log(user);
+class AdminUser extends User {
+  adminRole: number = 1;
+
+  public sayAdminRole(): string {
+    return `My adminRole is ${this.adminRole}.`;
+  }
+}
+
+const adminUser = new AdminUser('etramger2268', 26);
+console.log(adminUser.name);
+console.log(adminUser.isAdult());
+console.log(adminUser.sayAdminRole());
