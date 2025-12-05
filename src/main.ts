@@ -1,10 +1,3 @@
-let user: [string, number, string] = ['etranger2268', 26, 'Tokyo'];
+import { age, name } from './sub.js';
 
-console.log(user[0]);
-console.log(user[1]);
-console.log(user[2]);
-// console.log(user[3]);
-
-user = ['Olivia', 21, 'Osaka'];
-// user = [123, 21, 'Osaka'];
-// user = ['Olivia', 21];
+console.log(name, age);
