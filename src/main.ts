@@ -1,5 +1,10 @@
-const colors: string[] = ['Red', 'Green', 'Blue'];
-for (const color of colors) console.log(color);
+const scores: number[] = [100, 90, 80, 70, 60];
+let sum = 0;
+for (let i = 0; i < scores.length; i++) {
+  sum += scores[i];
+}
 
-const str = 'TypeScript';
-for (const char of str) console.log(char);
+const average = sum / scores.length;
+
+console.log(`sum: ${sum}`);
+console.log(`average: ${average}`);
