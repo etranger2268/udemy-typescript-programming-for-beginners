@@ -1,8 +1,4 @@
-import { User } from './sub.js';
+for (let i = 1; i <= 3; i++) console.log(i);
 
-const user = new User();
-user.name = 'etranger2268';
-user.age = 26;
-console.log(user.name);
-console.log(user.age);
-console.log(user.isAdult());
+const colors: string[] = ['red', 'blue', 'green'];
+for (let i = 0; i < colors.length; i++) console.log(colors[i]);
