@@ -1,45 +1,29 @@
-// 1 -> Gold
-// 2 -> Silver
-// 3 -> Bronze
-// 4 -> 4th
-// 5 -> 5th
-// それ以外の値 -> Other
+// 1 -> 大吉
+// 2 -> 中吉
+// 3 -> 小吉
+// 4 -> 吉
+// 5 -> 凶
+// それ以外 -> 想定外の数値です。
 
-const num: number = 1;
+const num: number = Math.floor(Math.random() * 5) + 1;
 
-// switch
-switch (num) {
+switch(num) {
   case 1:
-    console.log('Gold');
+    console.log('大吉');
     break;
   case 2:
-    console.log('Silver');
+    console.log('中吉');
     break;
   case 3:
-    console.log('Bronze');
+    console.log('小吉');
     break;
   case 4:
-    console.log('4th');
+    console.log('吉');
     break;
   case 5:
-    console.log('5th');
+    console.log('凶');
     break;
-  default:
-    console.log('Other');
+  default :
+    console.log('想定外の数値です。');
     break;
-}
-
-// if
-if (num === 1) {
-  console.log('Gold');
-} else if (num === 2) {
-  console.log('Silver');
-} else if (num === 3) {
-  console.log('Bronze');
-} else if (num === 4) {
-  console.log('4th');
-} else if (num === 5) {
-  console.log('5th');
-} else {
-  console.log('Other');
 }
