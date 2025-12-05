@@ -1,43 +1,10 @@
-const user: {
-  name: string;
-  gender: string;
-  age: number;
-} = {
-  name: 'etranger2268',
-  gender: 'man',
-  age: 21,
-};
+let user: [string, number, string] = ['etranger2268', 26, 'Tokyo'];
 
-console.log(user.name);
-console.log(user.gender);
-console.log(user.age);
+console.log(user[0]);
+console.log(user[1]);
+console.log(user[2]);
+// console.log(user[3]);
 
-console.log(user['name']);
-console.log(user['gender']);
-console.log(user['age']);
-
-user.age = 22;
-console.log(user.age);
-
-user.age = 22;
-console.log(user['age']);
-
-console.log(Object.keys(user).length);
-console.log(Object.keys(user));
-
-// user.age = '20'
-// user.from = 'Tokyo';
-
-interface UserObj {
-  name: string;
-  gender: string;
-  age?: number;
-}
-
-const newUser: UserObj = {
-  name: 'etranger2268',
-  gender: 'man',
-  // age: 21,
-};
-
-console.log(newUser);
+user = ['Olivia', 21, 'Osaka'];
+// user = [123, 21, 'Osaka'];
+// user = ['Olivia', 21];
